@@ -1,0 +1,167 @@
+#game-app { 
+  display: flex;
+  flex-direction: row;
+}
+
+body{
+  background-color: rgb(44, 44, 100);
+}
+
+.display-hints { 
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  height: 200px;
+  width: 450px;
+  position: center;
+  border: 2px solid #EEA47FFF;
+  background: #e3e7e7;
+  margin-left: 100px;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  color:black;
+  overflow-y:scroll;
+  line-height:30px;
+  word-wrap: break-word;
+  font-style: oblique;
+  font-family: 'Lucida Sans';
+}
+
+.display-panel{
+  display: flex;
+  flex-direction: column;
+}
+
+.heading{
+  height: 30px;
+  width: 800px;
+  position: center;
+  color:white;
+  font-style: oblique;
+  font-family: 'Lucida Sans';
+  margin-left: 250px;
+  text-align: center;
+  padding: 10px;
+}
+
+.display-list{
+  display: flex;
+  flex-direction: row;
+}
+
+.display-words{
+  margin-top: 50px;
+  height: 400px;
+  width: 200px;
+ position: center;
+ border: 2px solid #EEA47FFF;
+  background: #e3e7e7;
+  margin-left: 100px;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  color:black;
+  overflow-y:scroll;
+  line-height:30px;
+  word-wrap: break-word;
+  font-style: oblique;
+  font-family: 'Lucida Sans';
+
+}
+
+.turns-info{
+  color: white;
+  margin-top:50px;
+  margin-left:100px;
+  font-size: 20px;
+  font-style: oblique;
+ font-family: 'Lucida Sans';
+}
+
+.guess-word{
+  text-align: center;
+  height:30px;
+  width:150px;
+  border: 2px solid #EEA47FFF;
+  background: #e3e7e7;
+  list-style: none;
+  font-style: oblique;
+  font-family: 'Lucida Sans';
+  font-weight:bold;
+
+}
+
+.hints{
+  list-style:none;
+}
+
+.guessed-word-list{
+  list-style:none;
+}
+
+.words{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.to-guess{
+  margin-left: 20px;
+  height:30px;
+  width:80px;
+  border: 2px solid #EEA47FFF;
+  background: #e3e7e7;
+  font-style: oblique;
+  font-family: 'Lucida Sans';
+  font-weight:bold;
+}
+
+.play-again{
+  margin-top:30px;
+  margin-left: 120px;
+  height:30px;
+  width:100px;
+  border: 2px solid #EEA47FFF;
+  background: #e3e7e7;
+  font-style: oblique;
+  font-family: 'Lucida Sans';
+  font-weight:bold;
+
+}
+
+.messages { 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.word-list-heading{
+  margin-right:500;
+}
+
+.text-info { 
+  color: white;
+  margin-top:30px;
+  margin-left:0px;
+  margin-top:20px;
+  font-size: 20px;
+  font-style: oblique;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.message:hover { 
+  background-color: #BADA55;
+}
+
+.meta-info { 
+  min-width: 100px;
+  background-color: lightgrey;
+  padding: 5px;
+}
+
+.play-area { 
+  margin-left: 100px;
+  margin-top:100px;
+
+}
