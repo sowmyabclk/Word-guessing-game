@@ -1,6 +1,6 @@
 ### Description:The application will be a game to guess a word.
 
-## How to Run the Project
+### How to Run the Project
 
 * step-1: Download the Project from git repository
 * step-2: npm install to download the necessary packages
@@ -8,8 +8,7 @@
 * step-4: go to http://localhost:3000
 
 
-## What this project does
-
+### What this project does
 
 The User will enter a word, and the page will do one of:
 * Say the word is not one of the permitted words and allow them to enter a new word
